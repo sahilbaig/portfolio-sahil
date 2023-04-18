@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1B1B1B;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    padding: 20px;
+    height: 10vh;
+    background-color:transparent;
+    color: white;
+    justify-content: space-between;
+}
+.logo{
+    align-self: flex-start;
+    font-family: 'Yatra One', cursive;
+}
+.links {
+    padding: 20px;
+    display: flex;
+    color : white;
+    margin-left: 10px ;
+    align-items: center;
+}
+.links > p{
+    font-family: 'Yatra One', cursive;
+
+}
+
+.container.home{
+    height: 80vh;
+    color: #8B6F5B;
+}
+.center {
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    flex :1;
+    font-size: 5vh;
+    border: 1px solid black;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+/* .info > .links{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+    align-self: flex-start;
+}    */
+.socials{
+    display: flex;
+    align-self: flex-start;
+    padding-top: 2vh;
+}
+.socials>i{
+    margin-right: 2vw;
+}
+.subtext{
+    font-size: 3vh;
+    color: whitesmoke;
+    margin-top: 2rem;
+}
+.image{
+    flex:2; 
+    border: 1px solid white;
+}
+.message{
+    flex:1;
+    border: 1px solid green
+}
